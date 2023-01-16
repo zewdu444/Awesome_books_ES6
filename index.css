@@ -140,11 +140,11 @@ footer > p {
 
 .contactlist > li {
   text-align: left;
+  margin-left: 3.75rem;
 }
 
 .contact > p {
-  width: 440px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  max-width: 440px;
+  margin: 20px auto 10px;
+  text-align: left;
 }
