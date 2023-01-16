@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <h3><b>Awesome books</b></h3>
+  <h3><b>Awesome Books ES6</b></h3>
 
 </div>
 
@@ -54,27 +54,29 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Awesome books <a name="about-project"></a>
 
-> This project apart of Microverse project in Javascript and networking module which is building awesome books website to add or remove abook dynamically using JavaScript object and array
+> This project a part of the Microverse project in the JavaScript and networking module, to create an Awesome Books web application using ES6 feature, that allows users to dynamically add or remove books by JavaScript objects and arrays.
 
-## 🛠 Built With <a name="built-with">
+## 🛠 Built With <a name="built-with"> </a>
 
-</a>
+> HTML 5 , CSS flex box, javascript ES6, Luxon library and NPM.
 
 ### Tech Stack <a name="tech-stack"></a>
 
->
+> HTML 5, CSS3 and ES6 javascript
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
->
+ <li>Add book name and Author</li>
+  <li>Single page application</li>
+  <li>List books and remove</li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->
+> https://zewdu444.github.io/Awesome_books_ES6/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,8 +88,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Setup
 
-> <p> git clone https://github.com/zewdu444/Awesome-books.git</p>
-> cd Awesome-books
+> <p> git clone https://github.com/zewdu444/Awesome_books_ES6.git.git</p>
+> cd Awesome_books_ES6
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,20 +121,17 @@ To run the project, execute the following command:
 - Twitter: [@zewdu444](https://twitter.com/zewdu444)
 - LinkedIn: [zewdu-erkyhun](https://www.linkedin.com/in/zewdu-erkyhun-081378b3/)
 
-👤 **Abdimulhin Adan**
-
-- GitHub: [@AbdimulhinYussuf3675](https://github.com/AbdimulhinYussuf3675)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
->
+> Implement Weback
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/zewdu444/Awesome-books/issues).
+Feel free to check the [issues page](https://github.com/zewdu444/Awesome_books_ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
