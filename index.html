@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <nav>
+      <p>Awesome books</p>
+      <ul class="navlist">
+        <li><button id="list">List |</button></li>
+        <li><button id="addnew">Add new |</button></li>
+        <li><button id="contact">Contact</button></li>
+      </ul>
+    </nav>
+    <main class="container">
+      <p class="currentdate"></p>
+      <section class="list">
+        <h1>All awesome books</h1>
+        <div class="booksCont" id="booksCont"></div>
+        <br />
+      </section>
+      <section class="addBook" hidden>
+        <h3>Add a new Book</h3>
+        <input type="text" id="title" placeholder="Add Book Title" required />
+        <input type="text" id="author" placeholder="Add Book Author" required />
+        <button type="submit" id="addBtn">Add</button>
+      </section>
+      <section class="contact" hidden>
+        <h3>Contact Information</h3>
+        <p>
+          Do you have any question or you just want to say "Hello"? yon can
+          reach out as
+        </p>
+        <ul class="contactlist">
+          <li>Our email:</li>
+          <li>Our phone number:</li>
+          <li>Our address</li>
+        </ul>
+      </section>
+    </main>
+    <footer><p>Copyright ...</p></footer>
+    <script src="index.js"></script>
+  </body>
+</html>

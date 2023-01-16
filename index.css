@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  margin-top: 5px;
+  border: 1px solid #1b1a1a;
+  text-align: center;
+  box-shadow: 6px 6px 6px;
+  background-color: #bac7c7;
+  min-height: 315px;
+}
+
+.booksCont {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.book {
+  padding: 0 40px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #1b1a1a;
+  gap: 19px;
+}
+
+.bookAuthor {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.removeBtn {
+  width: 50%;
+  margin: 8px auto;
+  padding: 5px 0;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: -7px;
+}
+
+.addBook {
+  display: none;
+  width: 60%;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 3px;
+}
+
+#addBtn {
+  width: 35%;
+  margin: 0 auto;
+  padding: 5px 0;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+hr {
+  width: 50%;
+  margin-left: 100px;
+  background-color: black;
+}
+
+::placeholder {
+  color: #4765c5;
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #1b1a1a;
+  text-align: center;
+  box-shadow: 6px 6px 6px;
+  background-color: #bac7c7;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-top: 5px;
+  gap: 15px;
+}
+
+.navlist > li > button {
+  border: none;
+  background-color: transparent;
+}
+
+.navlist > li > button:hover {
+  color: #4765c5;
+}
+
+footer {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 5px;
+  border: 1px solid #1b1a1a;
+  box-shadow: 6px 6px 6px;
+  background-color: #bac7c7;
+}
+
+footer > p {
+  border: 1px solid #1b1a1a;
+  padding: 5px;
+}
+
+#list {
+  color: #4765c5;
+}
+
+.currentdate {
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.contactlist {
+  margin-left: 100px;
+}
+
+.contactlist > li {
+  text-align: left;
+}
+
+.contact > p {
+  width: 440px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
